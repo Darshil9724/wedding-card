@@ -1,11 +1,11 @@
 import { useReveal } from '../hooks/useReveal'
 
 const events = [
-  { icon: '🌿', name: 'Mehendi Ceremony', date: 'Wed, 10 December 2026', time: '4:00 PM – 9:00 PM', venue: 'Patel Banquet Hall, Ahmedabad' },
-  { icon: '💛', name: 'Haldi Ceremony',   date: 'Thu, 11 December 2026', time: '9:00 AM – 12:00 PM', venue: "Bhavik's Residence, Ahmedabad" },
-  { icon: '🎶', name: 'Sangeet Night',    date: 'Thu, 11 December 2026', time: '7:00 PM – 11:00 PM', venue: 'Royal Garden Resort, Ahmedabad' },
+  { icon: '🕉️', name: 'Ganesh Sthapna',   date: 'Thu, 11 December 2026', time: '7:00 AM', venue: 'Labh Residency, Mehsana' },
+  { icon: '🎁', name: 'Mameru',           date: 'Thu, 11 December 2026', time: '3:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
+  { icon: '💛', name: 'Haldi Ceremony',   date: 'Thu, 11 December 2026', time: '4:00 PM – 7:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
+  { icon: '🎶', name: 'Ras Garba',        date: 'Thu, 11 December 2026', time: '10:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
   { icon: '🪔', name: 'Wedding Ceremony', date: 'Fri, 12 December 2026', time: '10:00 AM – 2:00 PM', venue: 'Shreeji Mahal, Ahmedabad' },
-  { icon: '🥂', name: 'Reception Evening',date: 'Fri, 12 December 2026', time: '7:00 PM – 11:00 PM', venue: 'Shreeji Mahal Grand Hall, Ahmedabad' },
 ]
 
 function EventCard({ icon, name, date, time, venue }) {

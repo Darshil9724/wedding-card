@@ -2,12 +2,10 @@ import { useState, useEffect } from 'react'
 
 const links = [
   { href: '#hero',       label: 'Home' },
-  { href: '#story',      label: 'Our Story' },
   { href: '#events',     label: 'Events' },
   { href: '#gallery',    label: 'Gallery' },
   { href: '#venue',      label: 'Venue' },
   { href: '#family',     label: 'Family' },
-  { href: '#rsvp',       label: 'RSVP' },
 ]
 
 export default function Navbar() {

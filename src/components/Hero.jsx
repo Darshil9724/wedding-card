@@ -60,7 +60,6 @@ export default function Hero() {
 
       <div className="hero-btns">
         <a href="#invitation" className="btn btn-gold">View Invitation</a>
-        <a href="#rsvp"       className="btn btn-outline">RSVP Now</a>
       </div>
     </section>
   )

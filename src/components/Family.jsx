@@ -4,7 +4,7 @@ const groom = [
   { name: 'Shri Bipinbhai Patel',  role: 'Father of the Groom' },
   { name: 'Smt. Chandrikaben Patel',    role: 'Mother of the Groom' },
   // { name: 'Shri Mukeshbhai Desai',  role: 'Uncle (Kaka)' },
-  { name: 'Jaimini Patel',           role: 'Sister' },
+  // { name: 'Jaimini Patel',           role: 'Sister' },
   // { name: 'Rohan Desai',            role: 'Brother' },
 ]
 
@@ -16,12 +16,11 @@ const bride = [
   // { name: 'Hetal Patel',            role: 'Sister' },
 ]
 
-function FamBlock({ side, surname, members }) {
+function FamBlock({ side, members }) {
   const [ref, visible] = useReveal()
   return (
     <div className={`fam-block reveal${visible ? ' visible' : ''}`} ref={ref}>
-      <p className="fam-side">{side}</p>
-      <h3 className="fam-surname">{surname} Family</h3>
+      <h3 className="fam-surname">{side}</h3>
       {members.map((m, i) => (
         <div className="fam-member" key={i}>
           {m.name}
@@ -42,8 +41,8 @@ export default function Family() {
         <p className="sec-sub">Two families united by love, welcoming each other with open hearts.</p>
         <div className="divider"><span>❤</span></div>
         <div className="family-grid">
-          <FamBlock side="Groom's Family" surname="Patel" members={groom} />
-          <FamBlock side="Bride's Family" surname="Patel" members={bride} />
+          <FamBlock side="Bride's Family" members={bride} />
+          <FamBlock side="Groom's Family" members={groom} />
         </div>
       </div>
     </section>
