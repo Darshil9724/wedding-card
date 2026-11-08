@@ -76,7 +76,7 @@ export default function StartPage({ onEnter }) {
 
         {/* Details */}
         <p className="sp-date">12 &middot; December &middot; 2026</p>
-        <p className="sp-venue">Shreeji Mahal &nbsp;·&nbsp; Ahmedabad</p>
+        <p className="sp-venue">Mehsana</p>
 
         {/* CTA */}
         <button className="sp-btn" onClick={handleEnter}>

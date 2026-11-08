@@ -11,19 +11,19 @@ export default function Venue() {
         <div className="divider"><span>✦</span></div>
 
         <div className="venue-card reveal visible">
-          <span className="venue-icon">🏛️</span>
-          <h3 className="venue-name">Shreeji Mahal</h3>
+          <span className="venue-icon">🛕</span>
+          <h3 className="venue-name">Dudheshwar Mahadev Mandir</h3>
           <p className="venue-addr">
-            Nr. Satellite Road, Opp. Jodhpur Cross Roads,<br />
-            Ahmedabad, Gujarat – 380015
+            Dediyasan,<br />
+            Mehsana, Gujarat – 384002
           </p>
           <p className="venue-desc">
-            "A regal banquet adorned with timeless elegance, Shreeji Mahal offers a majestic setting
-            for grand celebrations — with opulent décor, sprawling gardens, and world-class hospitality.
-            The perfect canvas for Bhavik &amp; Peena's extraordinary day."
+            "Blessed by Lord Mahadev, the sacred Dudheshwar Mahadev Mandir in Dediyasan offers a serene
+            and divine setting for our sacred vows — where faith, tradition and family come together.
+            The perfect place to begin Bhavik &amp; Peena's journey as one."
           </p>
           <a
-            href="https://maps.google.com/?q=Satellite+Road+Ahmedabad+Gujarat"
+            href="https://www.bing.com/maps?q=Dudheshwar+Mahadev+Mandir+Dediyasan+Mehsana+Gujarat"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-gold"

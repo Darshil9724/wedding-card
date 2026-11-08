@@ -10,7 +10,7 @@ const groom = [
 
 const bride = [
   { name: 'Shri Anilbhai Patel',   role: 'Father of the Bride' },
-  { name: 'Smt. dipikaben Patel',   role: 'Mother of the Bride' },
+  { name: 'Smt. Dipikaben Patel',   role: 'Mother of the Bride' },
   // { name: 'Shri Ashwinbhai Patel',  role: 'Uncle (Kaka)' },
   { name: 'Darshil Patel',            role: 'Brother' },
   // { name: 'Hetal Patel',            role: 'Sister' },

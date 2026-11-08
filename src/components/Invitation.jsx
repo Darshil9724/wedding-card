@@ -18,7 +18,7 @@ export default function Invitation() {
           <div className="inv-names">Peena &amp; Bhavik</div>
 
           <div className="inv-families">
-            <span className="inv-family-name">Shri Anilbhai &amp; Smt. dipikaben Patel</span>
+            <span className="inv-family-name">Shri Anilbhai &amp; Smt. Dipikaben Patel</span>
             <span className="inv-muted">proudly announce the marriage of their daughter</span>
             <span className="inv-family-name">Peena Anilbhai Patel</span>
             <br /><br />
@@ -30,8 +30,8 @@ export default function Invitation() {
           <div className="inv-details">
             <span className="inv-highlight">Saturday, 12th December 2026</span><br />
             10:00 AM onwards<br />
-            Shreeji Mahal, Nr. Satellite Road,<br />
-            Ahmedabad – 380015
+            Dediyasan,<br />
+            Mehsana – 384002
           </div>
         </div>
       </div>

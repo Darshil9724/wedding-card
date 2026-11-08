@@ -1,12 +1,13 @@
 import { useReveal } from '../hooks/useReveal'
+import { GaneshIcon, MameruIcon, HaldiIcon, GarbaIcon, PherasIcon, ThaliIcon } from './EventIcons'
 
 const items = [
-  { icon: '🕉️', name: 'Ganesh Sthapna',          meta: 'Labh Residency, Mehsana · Thu 11 Dec', time: '7:00 AM' },
-  { icon: '🎁', name: 'Mameru',                  meta: 'Swagat Party Plot, Dediyasan · Thu 11 Dec', time: '3:00 PM' },
-  { icon: '💛', name: 'Haldi Ceremony',          meta: 'Swagat Party Plot, Dediyasan · Thu 11 Dec',  time: '4:00 PM' },
-  { icon: '🎶', name: 'Ras Garba',               meta: 'Swagat Party Plot, Dediyasan · Thu 11 Dec', time: '10:00 PM' },
-  { icon: '💍', name: 'Wedding Ceremony (Pheras)',meta: 'Shreeji Mahal · Fri 12 Dec',      time: '10:00 AM' },
-  { icon: '🍱', name: 'Wedding Lunch',           meta: 'Shreeji Mahal Dining Hall · Fri 12 Dec', time: '1:00 PM' },
+  { icon: <GaneshIcon />, name: 'Ganesh Sthapna',          meta: 'Labh Residency, Mehsana · Thu 11 Dec', time: '7:00 AM' },
+  { icon: <MameruIcon />, name: 'Mameru',                  meta: 'Swagat Party Plot, Dediyasan · Thu 11 Dec', time: '3:00 PM' },
+  { icon: <HaldiIcon />, name: 'Haldi Ceremony',          meta: 'Swagat Party Plot, Dediyasan · Thu 11 Dec',  time: '4:00 PM' },
+  { icon: <GarbaIcon />, name: 'Ras Garba',               meta: 'Swagat Party Plot, Dediyasan · Thu 11 Dec', time: '10:00 PM' },
+  { icon: <PherasIcon />, name: 'Wedding Ceremony (Pheras)',meta: 'Dudheshwar Mahadev Mandir · Fri 12 Dec',      time: '10:00 AM' },
+  { icon: <ThaliIcon />, name: 'Wedding Lunch',           meta: 'Dudheshwar Mahadev Mandir · Fri 12 Dec', time: '1:00 PM' },
 ]
 
 function SchItem({ icon, name, meta, time }) {

@@ -1,11 +1,12 @@
 import { useReveal } from '../hooks/useReveal'
+import { GaneshIcon, MameruIcon, HaldiIcon, GarbaIcon, CoupleIcon } from './EventIcons'
 
 const events = [
-  { icon: '🕉️', name: 'Ganesh Sthapna',   date: 'Thu, 11 December 2026', time: '7:00 AM', venue: 'Labh Residency, Mehsana' },
-  { icon: '🎁', name: 'Mameru',           date: 'Thu, 11 December 2026', time: '3:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
-  { icon: '💛', name: 'Haldi Ceremony',   date: 'Thu, 11 December 2026', time: '4:00 PM – 7:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
-  { icon: '🎶', name: 'Ras Garba',        date: 'Thu, 11 December 2026', time: '10:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
-  { icon: '🪔', name: 'Wedding Ceremony', date: 'Fri, 12 December 2026', time: '10:00 AM – 2:00 PM', venue: 'Shreeji Mahal, Ahmedabad' },
+  { icon: <GaneshIcon />, name: 'Ganesh Sthapna',   date: 'Thu, 11 December 2026', time: '7:00 AM', venue: 'Labh Residency, Mehsana' },
+  { icon: <MameruIcon />, name: 'Mameru',           date: 'Thu, 11 December 2026', time: '3:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
+  { icon: <HaldiIcon />, name: 'Haldi Ceremony',   date: 'Thu, 11 December 2026', time: '4:00 PM – 7:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
+  { icon: <GarbaIcon />, name: 'Ras Garba',        date: 'Thu, 11 December 2026', time: '10:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
+  { icon: <CoupleIcon />, name: 'Wedding Ceremony', date: 'Fri, 12 December 2026', time: '10:00 AM – 2:00 PM', venue: 'Dudheshwar Mahadev Mandir, Mehsana' },
 ]
 
 function EventCard({ icon, name, date, time, venue }) {
