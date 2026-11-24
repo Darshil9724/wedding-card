@@ -941,6 +941,7 @@ a { text-decoration: none; }
   overflow: hidden;
   transition: transform 0.3s;
   cursor: default;
+  background: #f5ede0;
 }
 .gallery-card:hover { transform: scale(1.02); }
 .gallery-card img {
