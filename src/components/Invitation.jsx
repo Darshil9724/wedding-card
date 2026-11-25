@@ -29,7 +29,7 @@ export default function Invitation() {
 
           <div className="inv-details">
             <span className="inv-highlight">Saturday, 12th December 2026</span><br />
-            10:00 AM onwards<br />
+            9:00 AM onwards<br />
             Dediyasan,<br />
             Mehsana – 384002
           </div>

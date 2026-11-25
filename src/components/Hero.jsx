@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const WEDDING = new Date('2026-12-12T10:00:00')
+const WEDDING = new Date('2026-12-12T09:00:00+05:30')
 
 function pad(n) { return String(n).padStart(2, '0') }
 

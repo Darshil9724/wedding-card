@@ -3,10 +3,10 @@ import { GaneshIcon, MameruIcon, HaldiIcon, GarbaIcon, CoupleIcon } from './Even
 
 const events = [
   { icon: <GaneshIcon />, name: 'Ganesh Sthapna',   date: 'Thu, 11 December 2026', time: '7:00 AM', venue: 'Labh Residency, Mehsana' },
-  { icon: <MameruIcon />, name: 'Mameru',           date: 'Thu, 11 December 2026', time: '3:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
+  { icon: <MameruIcon />, name: 'Mameru',           date: 'Thu, 11 December 2026', time: '1:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
   { icon: <HaldiIcon />, name: 'Haldi Ceremony',   date: 'Thu, 11 December 2026', time: '4:00 PM – 7:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
-  { icon: <GarbaIcon />, name: 'Ras Garba',        date: 'Thu, 11 December 2026', time: '10:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
-  { icon: <CoupleIcon />, name: 'Wedding Ceremony', date: 'Fri, 12 December 2026', time: '10:00 AM – 2:00 PM', venue: 'Dudheshwar Mahadev Mandir, Mehsana' },
+  { icon: <GarbaIcon />, name: 'Ras Garba',        date: 'Thu, 11 December 2026', time: '9:00 PM', venue: 'Swagat Party Plot, Dediyasan' },
+  { icon: <CoupleIcon />, name: 'Wedding Ceremony', date: 'Fri, 12 December 2026', time: '9:00 AM – 2:00 PM', venue: 'Dudheshwar Mahadev Mandir, Mehsana' },
 ]
 
 function EventCard({ icon, name, date, time, venue }) {

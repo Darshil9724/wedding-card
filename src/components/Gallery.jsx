@@ -8,7 +8,6 @@ const photos = [
   '/images/gallery/9.jpeg',
   '/images/gallery/3.jpeg',
   '/images/gallery/4.jpeg',
-  '/images/gallery/5.jpeg',
 ]
 
 function getVisible() {
